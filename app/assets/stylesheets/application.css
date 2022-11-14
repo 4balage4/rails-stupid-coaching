@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  width: 500px;
+}
+
+h1 {
+    text-align: center;
+    background-color: beige;
+    padding: 0;
+    border: solid 1px grey;
+    margin: 10px;
+    box-shadow: 2px 2px 4px;
+}
+
+.card {
+  border: solid 1px rgb(180, 180, 219);
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px;
+  text-align: center;
+}
